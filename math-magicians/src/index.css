@@ -39,7 +39,7 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 1px solid rgb(72, 17, 17);
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
@@ -67,4 +67,33 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.calculatorInput {
+  width: 95%;
+  height: 1.6rem;
+  background-color: #848693;
+  color: black;
+}
+
+.calculatorMiddleSection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.calculatorMiddleSection > button {
+  background-color: #e0e0e0;
+  color: black;
+}
+.calculatorBottomSection {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+}
+
+.calculatorBottomSection > button {
+  background-color: #e0e0e0;
+  color: black;
+}
+
+.colorOrangeOperators.colorOrangeOperators {
+  background-color: #f6913f;
 }
